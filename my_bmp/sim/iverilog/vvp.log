@@ -1,0 +1,22 @@
+top bmp read
+bmp_input_start issued
+VCD info: dumpfile wave.vcd opened for output.
+*bmp_input_start_wait
+*bmp_input_start_get
+*file opened
+WARNING: ../../verilog/tasks_bmp.v:194: $fread's count argument (4) is too large for start (0) and memory range [0:3].
+WARNING: ../../verilog/tasks_bmp.v:266: $fread's count argument (921600) is too large for start (0) and memory range [0:921599].
+WARNING: ../../verilog/tasks_bmp.v:268: $fread's count argument (921600) is too large for start (0) and memory range [0:921599].
+*file read
+*IMAGES FILLED CHECK
+*WEiGHT FILLED CHECK
+top edge detection
+check 1
+edge passed
+stuck
+top bmp write
+self checking
+
+****************************************
+*Total :    307200 , Error :          0
+****************************************
